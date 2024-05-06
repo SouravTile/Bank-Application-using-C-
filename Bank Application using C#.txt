@@ -16,7 +16,6 @@ namespace Account_Application
         private string name;
         private double balance;
         public event EventWatch performevent;
-
         public void onEvent(double a,double b)
         {
             if(performevent != null)
